@@ -1,0 +1,73 @@
+
+1-INTERACTUANDO CON HTML 
+incluimos el archivo con <script src="app.js" defer></script>, entre comillas va la ruta que vamos a usar del codigo javascript
+
+DOM(DOCUMENT OBJECT MODEL)
+document.querySelector este metodo que nos permite acceder a cada uno de los elementos 
+
+usamos el metodo titulo.innerHTML para definir un texto en el elemento seleccionado con el querySelector.
+
+EVENTOS(acciones) A UN CLICK  Y PRIMERA FUNCION 
+
+en <button>  </button>
+usamos -> onclick, para colocar la funcionalidad
+
+RECOMENDACION : usar funciones para que se puedan reutilizar y no alargar tanto el proceso de codificacion
+
+FUNCIONES
+
+usamos funtion 
+ejemplo :  declaramos la funcion como sigue 
+function intentoDeUsuario (){
+
+}
+
+y hacemos su llamado de la siguiente manera:
+
+intentoDeUsuario();
+
+
+ASIGNAR TEXTO EN HTML
+
+Hoisting -> mueve las variables al inicio para que queden disponibles
+
+CAPTURANDO EL VALOR DEL INPUT
+
+input representa a la caja blanca debajo del texto
+
+ document.getElementById().value con esta funcion que nos permite captura solo id  se coloca el .value para retornar el valor y no el objeto
+
+REMOVE ATTRIBUTE
+sirve para remover la funcion de un atricuto
+ document.getElementById('reiniciar').removeAttribute('disabled');
+
+SET ATRIBUTTE
+sirve para darle seleccion a un atributo
+
+document.querySelector('#reiniciar').setAttribute('disabled','true');
+
+LISTAS
+
+Arreglos
+
+.push(valor a agregar) para agregar un elemento al final de la lista 
+.legth para ver el tamaño de la lista 
+
+Como accedo al indice(posicion) de la lista(arreglo)?.
+
+
+la posicion del primer elemento empieza en cero para los arreglos.
+
+nombre dela variable[el corchete es la posicion a la que accederemos]
+
+
+para ver pedir el ultimo elemento de la lista
+
+nombrevariable[nombrevariable.length-1]
+
+usamos el metodo "includes" para saber si el elemento existe en la lista , no retorna un booleano( True OR False)
+
+el concepto de recursividad permite que se una funcion se llame asi misma 
+
+
+
